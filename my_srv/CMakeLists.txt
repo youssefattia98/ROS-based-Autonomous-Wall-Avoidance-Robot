@@ -57,7 +57,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate services in the 'srv' folder
 add_service_files(
    FILES
-   Speed.srv
+   Veloctiy.srv
 #   Service2.srv
  )
 
