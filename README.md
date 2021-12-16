@@ -108,18 +108,22 @@ if(Frontdist>1 &&  Leftdis>1 && Rightdist>1){
 ```
 
 
-![immagine](256583744_494398871604484_5622079301912611396_n.png)  
+![immagine]()  
 
 The above Flowchart describes more details the working algorithm of the solution.
 
 4)Final Output. 
 ================================
+
+https://user-images.githubusercontent.com/69837845/146397365-f4ed9b4b-f90a-41b5-b385-2e2354150dbc.mp4
+
+
 The speed up video below shows the robot behaving in the environment doing its intended task, this simulation can run for ever in which the robot will stay in this loop. Furthermore, this assignment enhanced my skills in using Linux, docker, GitHub, ROS and Cpp and I am very happy with the output I have reached.
 Finally, I really wanted to mention how much I enjoyed working on this project with my collages.  
 
 
 
-https://github.com/youssefattia98/Research-Track-Assignment-2/blob/main/ass2%20X2.mp4
+
 
 5)Possible improvements.  
 ================================
