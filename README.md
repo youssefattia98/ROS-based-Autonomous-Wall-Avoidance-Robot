@@ -65,7 +65,7 @@ However, the most efficient algorithm by far is used in the solution, in which t
 Truth table & Flowchart
 ---------
 
-![immagine](256583744_494398871604484_5622079301912611396_n.png)  
+![immagine](https://github.com/youssefattia98/Research-Track-Assignment-2/blob/main/Left%20distance-1.jpg)  
 
 The above Truth table describes in details the working algorithm of the solution, In which there are 8 conditons according to the reading that the robot recives from the messages. 1 in the truth table means that wall is near and vise versa for the 0 conditon, according to the situation the robot is, it can decide to go straight, turn right, turn left or check what is nearer to turn the oppsite way. At the end this trasnlates to 4 if condtions indicted below.
 
@@ -125,4 +125,4 @@ https://user-images.githubusercontent.com/69837845/140844584-21148b50-698b-4e8d-
 ================================
 I suggest the follwing improvements which are as follow:  
      Apply a Proportional, Integral, Derivative (PID) controller on the robot so it can make the track in the least possible time and changing its driving and turn speeds according to the feedback of the readings. 
-            ![immagine](https://blog.west-cs.com/hs-fs/hub/331798/file-489926128-gif/Blog_Pictures/What_is_PID_Control.gif?t=1528717719517)  
+            ![immagine](https://github.com/youssefattia98/Research-Track-Assignment-2/blob/main/68747470733a2f2f626c6f672e776573742d63732e636f6d2f68732d66732f6875622f3333313739382f66696c652d3438393932363132382d6769662f426c6f675f50696374757265732f576861745f69735f5049445f436f6e74726f6c2e6769663f743d313532383731.gif)  
