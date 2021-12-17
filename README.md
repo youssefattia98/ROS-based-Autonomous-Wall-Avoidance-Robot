@@ -136,5 +136,6 @@ Finally, I really wanted to mention how much I enjoyed working on this project w
 5)Possible improvements.  
 ================================
 I suggest the following improvements which are as follow:  
-     Apply a Proportional, Integral, Derivative (PID) controller on the robot so it can make the track in the least possible time and changing its driving and turn speeds according to the feedback of the readings. 
-            ![immagine](https://github.com/youssefattia98/Research-Track-Assignment-2/blob/main/68747470733a2f2f626c6f672e776573742d63732e636f6d2f68732d66732f6875622f3333313739382f66696c652d3438393932363132382d6769662f426c6f675f50696374757265732f576861745f69735f5049445f436f6e74726f6c2e6769663f743d313532383731.gif)  
+     1)Apply a Proportional, Integral, Derivative (PID) controller on the robot so it can make the track in the least possible time and changing its driving and turn speeds according to the feedback of the readings. 
+            ![immagine](https://github.com/youssefattia98/Research-Track-Assignment-2/blob/main/68747470733a2f2f626c6f672e776573742d63732e636f6d2f68732d66732f6875622f3333313739382f66696c652d3438393932363132382d6769662f426c6f675f50696374757265732f576861745f69735f5049445f436f6e74726f6c2e6769663f743d313532383731.gif) 
+	2)Write a single bash script to run both process in diffrent terminals using Konsole.    
