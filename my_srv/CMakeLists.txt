@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(my_srv)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
@@ -55,9 +55,9 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-add_service_files(
+ add_service_files(
    FILES
-   Veloctiy.srv
+   Velocity.srv
 #   Service2.srv
  )
 
@@ -134,7 +134,6 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-##add_executable(server src/server.cpp)
 add_executable(client src/client.cpp)
 
 ## Rename C++ executable without prefix
@@ -145,13 +144,10 @@ add_executable(client src/client.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-##add_dependencies(server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
 ## Specify libraries to link a library or executable target against
-##target_link_libraries(server
- # ${catkin_LIBRARIES}
- #)
-target_link_libraries(client
+ target_link_libraries(client
    ${catkin_LIBRARIES}
  )
 
@@ -164,7 +160,7 @@ target_link_libraries(client
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-# install(PROGRAMS
+# catkin_install_python(PROGRAMS
 #   scripts/my_python_script
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )

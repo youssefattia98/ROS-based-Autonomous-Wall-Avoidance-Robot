@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
 	ros::ServiceClient client = n.serviceClient<my_srv::Velocity>("/velocity");
 	my_srv::Velocity velocity_srv; 
 
-	printf("Please enter u and d to increase or decrease speed respectively\n");
+	printf("Please enter u, d or any bottom to increase, decrease speed or reset robot postion respectively\n");
 	cin>>input;
 
 	velocity_srv.request.in = input; //gives the input by the user
