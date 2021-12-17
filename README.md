@@ -27,7 +27,7 @@ Once the everything is compiled, get inside the directory on the shell. To run t
 ```bash
 $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
 $ rosrun assignment2 controller_node 
-$ rosrun my_srv clinet_node 
+$ rosrun my_srv clinet
 ```
 
 ### Motion ###
