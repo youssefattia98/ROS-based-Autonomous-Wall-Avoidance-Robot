@@ -1,5 +1,5 @@
-# Research Track Assignment 2 description:
-Assignment 2 for Research Track course, the project consists of a simulation in which a robot should complete a track without colliding in the walls using ROS and Cpp as the programming language.
+# ROS-based Autonomous Wall-Avoidance Robot description:
+The project consists of a simulation in which a robot should complete a track without colliding in the walls using ROS and Cpp as the programming language.
 This repo consists of the following points:  
  1)How to Setup the Simulator.  
  2)How to use the Simulator.  
@@ -66,7 +66,7 @@ void laserCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
 
 3)Algorithm used to solve the problem and flowchart. 
 ================================
-There are plenty of Algorithms that can be used to solve this assignment which I have tried more than one algorithm.
+There are plenty of Algorithms that can be used to solve this problem which I have tried more than one algorithm.
 However, the most efficient algorithm by far is used in the solution, in which the robot turns according to his distance with the right wall and left wall same as autonomous cars algorithm to follow a lane. This will be explained more further down below, in the meantime the most challenging part of the script is how the robot decides which direction it should turn.  
 
 Truth table & Flowchart
@@ -126,7 +126,7 @@ The above Flowchart describes more details the communication between the ROS nod
 https://user-images.githubusercontent.com/69837845/146594897-74acbbae-0cef-4baa-824a-4dbaf89cceb2.mp4
 
 
-The speed up video below shows the robot behaving in the environment doing its intended task, this simulation can run for ever in which the robot will stay in this loop. Furthermore, this assignment enhanced my skills in using Linux, docker, GitHub, ROS and Cpp and I am very happy with the output I have reached.
+The speed up video below shows the robot behaving in the environment doing its intended task, this simulation can run for ever in which the robot will stay in this loop. Furthermore, this project enhanced my skills in using Linux, docker, GitHub, ROS and Cpp and I am very happy with the output I have reached.
 Finally, I really wanted to mention how much I enjoyed working on this project with my collages.  
 
 
